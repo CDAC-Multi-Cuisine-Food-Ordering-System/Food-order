@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Poppins"
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+
+
+}
+
+.custom-bg {
+  background-color: #eb455f;
+}
+
+.text-color {
+  color: #2e2e2d;
+}
+
+.text-color1 {
+  color: #e7ebff;
+}
+
+.border-color {
+  border-color: #13221e;
+}
+
+.custom-bg-text {
+  color: #e7ebff;
+}
+
+.bg-color {
+  background-color: #eb455f;
+}
+
+.text-color-second {
+  color: #eb455f;
+}
+
+.rounded-card {
+  padding: 1.5em 0.5em 0.5em;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px #00000033;
+}
+
+.form-card {
+  padding: 0.2em 0.2em 0.2em;
+  border-radius: 1em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Adjust the values here */
+}
+
+.food-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.food-card:hover {
+  transform: scale(
+    1.02
+  ); /* You can adjust the scale factor for the desired hover effect */
+}
+
+.p-text {
+  color: gainsboro;
+}
+.copyright-text {
+  color: grey;
+  text-align: center;
+}
+
+.card-bg {
+  background-color: #79797a;
+}
+
+input[type="radio"]:checked {
+  background-color: #eb455f;
+  border-color: #eb455f;
+}
