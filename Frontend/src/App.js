@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -21,9 +19,7 @@ function App() {
         </a>
       </header>
     </div>
-=======
-=======
->>>>>>> Saloni
+  )
 import { Routes, Route } from "react-router-dom";
 import Header from "./NavbarComponent/Header";
 import AdminRegisterForm from "./UserComponent/AdminRegisterForm";
@@ -124,10 +120,7 @@ function App() {
       </Routes>
     </div>
     </ThemeProvider>
-<<<<<<< HEAD
->>>>>>> Saloni
-=======
->>>>>>> Saloni
+
   );
 }
 
